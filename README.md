@@ -1,33 +1,34 @@
-# 🧠 Custom Logistic Regression from Scratch
+# 🧠 Logistic Regression from Scratch
 
-A fully functional implementation of Logistic Regression in pure Python and NumPy — built from scratch to understand the internals of how classification works.
+A custom implementation of Logistic Regression in Python built from the ground up — no `scikit-learn`, no shortcuts. Just raw NumPy, clean design, and full control.
 
-This repository is intended as a learning project for exploring the core ideas behind logistic regression, without relying on libraries like scikit-learn.
+This project is educational and modular, designed to help you deeply understand the internal workings of logistic regression, including:
 
----
-
-## 🚀 Features
-
-- ✅ Binary classification using logistic regression
-- 📉 Supports L1 and L2 regularization
-- 🔁 Batch gradient descent optimization
-- 📊 Evaluation metrics: Accuracy, Precision, Recall, F1-score
-- 📈 Live loss tracking and visualization
-- 🧪 Unit tests included for all components
-- 🛠️ Clean and modular object-oriented design
-- 🧼 Feature normalization (optional)
-- 📎 Support for custom learning rate, epochs, and penalty tuning
+- Batch gradient descent  
+- L1/L2 regularization  
+- Evaluation metrics  
+- Feature normalization  
+- Predict probabilities and class labels  
 
 ---
 
-## 📦 Project Structure
+## 📦 Features
+
+- ✅ Train on binary classification datasets  
+- ✅ Supports L1 and L2 regularization  
+- ✅ Gradient descent optimization  
+- ✅ Predict both class labels and probabilities  
+- ✅ Custom learning rate and iteration control  
+- ✅ Convergence tracking with loss plots  
+- ✅ Feature normalization support (optional)  
+- ✅ Clean, OOP-based API inspired by `scikit-learn`
+
+---
+
+## 🔧 Installation
+
+Clone this repo:
 
 ```bash
-.
-├── logistic_regression.py       # Core class
-├── test_logistic_regression.py # Unit tests
-├── data/                        # Sample datasets (optional)
-├── plots/                       # Loss curve visualizations
-└── README.md
-
-Generated with ❤️ by ChatGPT
+git clone https://github.com/your-username/logistic-regression-from-scratch.git
+cd logistic-regression-from-scratch
